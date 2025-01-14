@@ -1,0 +1,1 @@
+﻿gci *.class -File | ri

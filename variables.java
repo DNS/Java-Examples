@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class variables {
 	public static void main (String[] args) {
@@ -15,10 +15,25 @@ public class variables {
 		// ARRAY
 		int[] arr = {11, 22, 33};
 		System.out.println("array size: " + arr.length);
-		for (int i: arr) {
+		for (int i: arr)
 			System.out.println(i);
-		}
 		
+		System.out.println("--------");
+		
+		// LIST
+		List<String> li  = List.of("C","D");
+		for (String buf: li)
+			System.out.println(buf);
+		
+		System.out.println("--------");
+		
+		// ARRAYLIST
+		List<String> al  = new ArrayList<>();
+		al.add("A");
+		al.add("B");
+		for (String buf: al)
+			System.out.println(buf);
+				
 		System.out.println("--------");
 		
 		// HASH

@@ -24,7 +24,7 @@ class ObjectTest {
 
 
 public class objectoriented {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         ObjectTest oo = new ObjectTest(100, 200);
 		
 		oo.X = 888;

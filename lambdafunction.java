@@ -5,7 +5,7 @@ public class lambdafunction {
 		int operation(int a, int b);
 	}
 
-	public static void main(String[] args) {
+	public static void main (String[] args) {
 		// Create a lambda function that implements the MathOperation interface
         MathOperation addition = (a, b) -> a + b;
 

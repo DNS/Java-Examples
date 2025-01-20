@@ -1,7 +1,7 @@
 
 
 public class anonymousfunction {
-	public static void main(String[] args) {
+	public static void main (String[] args) {
 	
 		Runnable runnable = new Runnable() {
             @Override

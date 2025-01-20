@@ -7,7 +7,7 @@ public class fileoperation {
 	static List<String> add_more = List.of("CCC", "DDD");
 	
 	
-	public static void main(String args[]) throws Exception {
+	public static void main (String args[]) throws Exception {
 		write_file();
 		append_file();
 		read_file();

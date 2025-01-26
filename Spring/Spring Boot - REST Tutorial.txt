@@ -1,11 +1,11 @@
-﻿# Spring REST Tutorial
+﻿# Spring Boot - REST Tutorial
 
 
 1. Create empty project using Spring Initializr website, and extract the zip file
 	https://start.spring.io/
-	Check: Maven, Java, 3.4.2, Jar, Java 17
-		Dependencies: Spring Web
-	Extract "demo.zip"
+	Checked: Maven, Java, 3.4.2, Jar, Java 17
+	Dependencies: Spring Web
+	Then Extract "demo.zip"
 	
 	
 2. Eclipse
@@ -38,5 +38,5 @@
 
 	
 3. Open browser
-	http://localhost:8080/hello
+	http://localhost:9000/hello
 

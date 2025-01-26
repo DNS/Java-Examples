@@ -13,8 +13,8 @@ public class loop {
 		
 		System.out.println("------------");
 		
-		int[] x = {111, 222, 444};
-		for (int i: x) {
+		String[] x = {"hello", "world", "okay"};
+		for (String i: x) {
 			System.out.println(i);
 		}
 		

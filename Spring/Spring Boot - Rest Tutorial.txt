@@ -1,0 +1,42 @@
+﻿# Spring REST Tutorial
+
+
+1. Create empty project using Spring Initializr website, and extract the zip file
+	https://start.spring.io/
+	Check: Maven, Java, 3.4.2, Jar, Java 17
+		Dependencies: Spring Web
+	Extract "demo.zip"
+	
+	
+2. Eclipse
+	⮞ File → Import → Existing Maven Projects → Root Directory:
+		D:\SANDBOX\Java\Java-Examples\demo
+	
+	⮞ File → New → Other → Class → Name:
+		RestTest
+	
+	⮞ demo\com\example\demo\RestTest.java [EDIT]:
+		package com.example.demo;
+
+		import org.springframework.web.bind.annotation.RequestMapping;
+		import org.springframework.web.bind.annotation.RestController;
+
+		@RestController
+		public class Test123 {
+			@RequestMapping("/hello")
+			public String hello () {
+				return "stiestast";
+				
+			}
+		}
+
+
+	⮞ demo\src\main\resources\application.properties [EDIT]
+		server.port=9000
+
+	⮞ Run → Run As → Spring Boot App
+
+	
+3. Open browser
+	http://localhost:8080/hello
+

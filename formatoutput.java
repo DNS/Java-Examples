@@ -7,8 +7,8 @@ public class formatoutput {
 		double d = 4.1234567890123456789;
 		
 		System.out.printf("%s\n%d\n%f\n%f\n", s, i, f, d);
-		System.out.println("------------");
 		System.out.printf("%.20f\n%.20f\n", f, d);
+		System.out.println("Welcome " + " Guest");
 		
 		
 		String name = "John";

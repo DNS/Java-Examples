@@ -5,9 +5,17 @@ public class variables {
 		System.out.println("--------");
 		
 		// VARIABLES: Integer, String
-		int x = 123;
-		String s = "Hello World";		
-		System.out.println(x);
+		// java doesn't support unsigned value
+		byte a1 = 8;
+		short a2 = 32767;
+		int a3 = 2147483647;
+		long a4 = 9223372036854775807L;
+		float a5  = 0.123456789f;
+		double a6 = 0.1234567890123456;
+		boolean a7 = true;
+		char a8 = 'Z';
+		String s = "Hello World";
+		System.out.println(a8);
 		System.out.println(s);
 		
 		System.out.println("--------");

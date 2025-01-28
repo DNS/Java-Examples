@@ -1,0 +1,8 @@
+﻿# code for testing
+	com\example\demo\DemoApplicationTests.java
+
+# to run test
+	.\mvnm test
+
+
+
